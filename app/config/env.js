@@ -1,8 +1,8 @@
 const env = {
-  database: 'basexamen',
-  username: 'basexamen_user',
-  password: 'R3Y8swGNJ2LsshvUvIFiuj5jFXFTqQym',
-  host: 'dpg-crofvlhu0jms73c8vg6g-a.oregon-postgres.render.com',
+  database: 'basexamenfinal',
+  username: 'basexamenfinal_user',
+  password: '9xefpgscRyk5XJaeh2xcfALaODeVvVuF',
+  host: 'dpg-cslsqq0gph6c738il1s0-a.oregon-postgres.render.com',
   dialect: 'postgres',
   ssl: true,
   pool: {

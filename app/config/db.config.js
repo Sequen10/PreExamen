@@ -25,12 +25,7 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
  
-//tabla usuario
-db.Usuario = require('../models/usuario.model.js')(sequelize, Sequelize);
-//tabla libro
-db.Libro = require('../models/libro.model.js')(sequelize, Sequelize);
-//tabla autor
-db.Autor = require('../models/autor.model.js')(sequelize, Sequelize);
 
+db.Libro = require('../models/libro.model.js')(sequelize, Sequelize);
 
 module.exports = db;

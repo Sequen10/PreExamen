@@ -89,19 +89,19 @@ exports.updateById = async (req, res) => {
             
             if (!result) {
                 res.status(500).json({
-                    message: "No se puede actualizar un libro con id = " + req.params.id,
-                    error: "No se pudo actualizar el libro",
+                    message: "No se puede actualizar un habitacion con id = " + req.params.id,
+                    error: "No se pudo actualizar el hanitacion",
                 });
             };
 
             res.status(200).json({
-                message: "Actualización exitosa de un libro con id = " + libroId,
-                libro: updatedObject,
+                message: "Actualización exitosa de una habitacion con id = " + habitacionId,
+                habitacion: updatedObject,
             });
         }
     } catch (error) {
         res.status(500).json({
-            message: "No se puede actualizar un libro con id = " + req.params.id,
+            message: "No se puede actualizar una habitacion con id = " + req.params.id,
             error: error.message
         });
     }
